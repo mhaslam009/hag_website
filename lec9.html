@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>FLEXBOx</title>
+        <style>
+            #container {
+                display: flex;
+                flex-wrap: wrap;
+            }
+            #container > div {
+                background-color: aqua;
+                font-size: 20px;
+                margin: 20px;
+                padding: 20px;
+                width: 200px;
+            }
+            #grid {
+                background-color: blueviolet;
+                display: grid;
+                padding: 20px;
+                grid-column-gap: 20px;
+                grid-row-gap: 20px;
+                grid-template-columns: 100px auto 200px;
+            }
+            .grid-item {
+                background-color: white;
+                text-align: center;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="container">
+            <div>FLEXBOX#01</div>
+            <div>FLEXBOX#02</div>
+            <div>FLEXBOX#03</div>
+            <div>FLEXBOX#04</div>
+            <div>FLEXBOX#05</div>
+            <div>FLEXBOX#06</div>
+        </div>
+        <div id="grid">
+            <div class="grid-item">1</div>
+            <div class="grid-item">2</div>
+            <div class="grid-item">3</div>
+            <div class="grid-item">4</div>
+            <div class="grid-item">5</div>
+            <div class="grid-item">6</div>
+        </div>
+    </body>
+</html>
